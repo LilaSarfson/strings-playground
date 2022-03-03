@@ -2,6 +2,6 @@
 
 let nombres = "pedro-maría_mario";
 
-let resultado;
+let resultado = nombres.replace("maría_", "maría ");
 
-console.log("Resultado: ['pedro, maría, mario']", resultado);
+console.log("Resultado: ['pedro, maría, mario']", resultado.split(" "));
